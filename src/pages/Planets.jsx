@@ -81,7 +81,8 @@ const Planets = () => {
                       </div>
                       
                        <button
-                        className="pe-2 ms-auto star btn btn-outline-success h-75 w-25 btn-sm"
+                        className="pe-2 ms-auto star btn btn-outline-success"
+                        style={{width: "30px", height: "30px"}}
                         onClick={() => {
                           if (store.favorites.includes(planet.name)) {
                             alert(

@@ -77,7 +77,7 @@ const Characters = () => {
                             cursor: "pointer",
                           }}
                         >
-                          Databank
+                          Data
                         </p>
                       </div>
                      <button

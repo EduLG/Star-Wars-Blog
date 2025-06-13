@@ -29,12 +29,6 @@ const NavbarTop = () => {
             
             <ul className="navbar-nav  gap-3">
               <li className="nav-item">
-                <NavLink to="/" className="text-decoration-none text-white">
-                  <h5 className="px-2">HOME</h5>
-                </NavLink>
-              </li>
-
-              <li className="nav-item">
                 <NavLink
                   to="/content-characters"
                   className="text-decoration-none text-white"

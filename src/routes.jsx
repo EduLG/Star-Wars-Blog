@@ -6,9 +6,17 @@ import {
     Route,
 } from "react-router-dom";
 import { Layout } from "./pages/Layout";
-import { Home } from "./pages/Home";
 import { Single } from "./pages/Single";
 import { Demo } from "./pages/Demo";
+import Characters from "./pages/Characters"
+import Planets from "./pages/Planets";
+import Starships from "./pages/Starships";
+import DataBank from "./pages/DataBank";
+import Films from "./pages/Films";
+import Vehicles from "./pages/Vehicles";
+import Species from "./pages/Species";
+
+
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -22,9 +30,17 @@ export const router = createBrowserRouter(
       <Route path="/" element={<Layout />} errorElement={<h1>Not found!</h1>} >
 
         {/* Nested Routes: Defines sub-routes within the BaseHome component. */}
-        <Route path= "/" element={<Home />} />
+        <Route path= "/" element={<Characters />} />
         <Route path="/single/:theId" element={ <Single />} />  {/* Dynamic route for single items */}
         <Route path="/demo" element={<Demo />} />
+        <Route path="/content-characters" element={<Characters/>} />
+        <Route path="/content-planets" element={<Planets /> } />
+        <Route path="/content-starships" element={<Starships /> } />
+        <Route path="/content-films" element={<Films /> } />
+        <Route path="/content-vehicles" element = {<Vehicles />} />
+        <Route path="/content-species" element = {<Species />} />
+        <Route path="/content-databank/:type/:uid" element={<DataBank /> } />
+       
       </Route>
     )
 );

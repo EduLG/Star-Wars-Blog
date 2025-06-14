@@ -10,7 +10,6 @@ const NavbarTop = () => {
 
   return (
     <div>
-      <p className="text-secondary d-flex justify-content-center">BROWSE</p>
       <nav className="navbar navbar-expand-lg my-3">
         
         <div className="container-fluid d-flex  ">

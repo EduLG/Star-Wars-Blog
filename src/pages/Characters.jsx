@@ -95,7 +95,7 @@ const Characters = () => {
                             payload: character.name,
                           });
                         }}>
-                          ☆
+                          Fav
                       </button>
                     </div>
                   </div>

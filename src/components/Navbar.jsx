@@ -8,7 +8,7 @@ export const Navbar = () => {
   return (
     <div className="mt-3 container-fluid border-top border-bottom d-flex align-items-center flex-wrap">
       <h3 className="mb-0 text-white mx-1 py-2 flex-grow-1">
-        BROWSE DATA BANK //
+        MY STAR WARS BLOG
       </h3>
 
       <div className="ms-auto me-3" style={{ minWidth: "200px", maxWidth: "100%" }}>

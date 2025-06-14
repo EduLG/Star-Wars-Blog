@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="footer mt-auto py-3 text-end">
       <button className="btn text-white bg-dark" onClick={scrollToTop}>
-        BACK TO THE STARS ↑
+        Go Up ↑
       </button>
     </footer>
   );
